@@ -132,6 +132,16 @@ elif first_dance_character == ">":
 else:
     print("The character is not part of the dance sequence and is invalid.")
     
-# Question 10
+# Question 10 (idk how to do)
 
+milkshake = ["I", "I", "M", "C", "C", "C", "W"]
+blender1 = []
+print(milkshake)
 
+blender = str(input("Enter in 6 of the characters in 'milkshake': "))
+for i in blender:
+    blender1.append(i)
+
+for c in milkshake:
+    if c not in blender1:
+        print(c)
