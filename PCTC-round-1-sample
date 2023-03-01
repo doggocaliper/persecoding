@@ -122,13 +122,13 @@ for i in range(day):
 
 first_dance_character = str(input("Enter the first dance character: "))
 if first_dance_character == "<":
-    print("<+$><+$>")
+    print("<+&><+&>")
 elif first_dance_character == "+":
-    print("+$><+$><")
+    print("+&><+&><")
 elif first_dance_character == "$":
-    print("$><+&><+")
+    print("&><+&><+")
 elif first_dance_character == ">":
-    print("><+&><+$")
+    print("><+&><+&")
 else:
     print("The character is not part of the dance sequence and is invalid.")
     
